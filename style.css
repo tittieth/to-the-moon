@@ -2,6 +2,52 @@
     box-sizing: border-box;
 }
 
+.menu {
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 0;
+}
+
+button span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+
+input:checked + button span{
+    position: absolute;
+    transition: all 0.3s easy-in-out;
+}
+
+input:checked + button span:nth-child(2){
+    opacity: 0;  
+}
+
+input:checked + button span:nth-child(1){
+    transform: rotate(45deg);  
+}
+
+input:checked + button span:nth-child(3){
+    transform: rotate(-45deg); 
+}
+
+nav {
+    position: fixed;
+    background-color: gold;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .astronaut{
     background-image: url(images/adam-miller-mobile.jpg);
     background-size: cover;
@@ -10,7 +56,7 @@
     height: 100vh;
 }
 
-.head_nav{
+header{
     background-color: aquamarine;
     height: 50px;
 }
