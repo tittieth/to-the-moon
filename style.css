@@ -94,22 +94,32 @@ li a{
     height: 100vh;
 }
 
+
 .box_one {
-    background-color: blue;
-    width: 300px;
-    height: 300px;
+    background-color: white;
+    width: 170px;
+    height: 180px;
+    border: 4px solid black;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
 }
 
+.box_one h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 .box_two {
     background-color: lightskyblue;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .box_three {
     background-color: pink;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .box_four {
@@ -128,4 +138,8 @@ li a{
 
 .starry_sky {
     background-image: url(images/starry-sky-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
