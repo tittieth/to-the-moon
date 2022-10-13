@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.astronaut{
+    background-image: url(images/adam-miller-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.head_nav{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.box_one {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.box_two {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.box_three {
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+}
+
+.box_four {
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+}
+
+.box_five {
+    background-color: lightsalmon;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: antiquewhite;
+    height: 30px;
+}
+
+.starry_sky {
+    background-image: url(images/starry-sky-desktop.jpg);
+}
