@@ -65,7 +65,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: lightgoldenrodyellow;
+    background-color:rgba(255, 255, 255, .6);
     width: 100vw;
     min-height: 100vh;
     opacity: 0;
@@ -106,10 +106,13 @@ li a{
     background-image: url("images/adam-miller-mobile.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
 }
+  
 
 /*boxen med texten to the moon*/
 .box_one {
