@@ -16,7 +16,7 @@
     background-color: lightgrey;
   }
   
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
   /*-------------sid 1-------------*/
   .page-one {
     background-image: url("images/adam-miller-mobile.jpg");
@@ -25,7 +25,7 @@
     background-size: cover;
     position: relative;
     min-height: 100vh; 
-    min-width: 100vw;
+    width: 100vw;
   }
   
   .menu {
@@ -187,21 +187,21 @@
   .space-ventures h2 span:first-of-type {
     display: block;
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     position: relative;
-    left: 30px;
+    left: 20px;
     z-index: 1;
   }
   .space-ventures h2 span:nth-of-type(2) {
     position: relative;
-    top: -55px;
+    top: -45px;
     color: grey;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     z-index: 0;
-    left: 92px;
+    left: 60px;
   }
   
   blockquote {
@@ -236,6 +236,9 @@
   
   .pink {
     outline: 3px solid pink;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 0.7rem;
    
   }
   
