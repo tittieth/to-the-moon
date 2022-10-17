@@ -270,16 +270,7 @@
   }
 
   .second-footer p {
-    animation: glow 30s ease-in-out infinite alternate;
-  }
-
-    @-webkit-keyframes glow {
-    from {
-    text-shadow: 0 0 5px #d200a2, 0 0 2px #fff, 0 0 3px #d200a2, 0 0 4px #e60073, 0 0 50px #e60073, 0 0 6px #e60073, 0 0 7px #e60073;
-    }
-    to {
-    text-shadow: 0 0 1px #fff, 0 0 3px #ff4da6, 0 0 4px #d200a2, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 70px #ff4da6, 0 0 8px #ff4da6;
-    }
+    text-shadow: 0 0 20px #fc3acf;
   }
 
   .cookies {
