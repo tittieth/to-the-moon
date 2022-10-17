@@ -13,8 +13,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
-    z-index: -2;
+    min-height: 100vh; 
    
   }
   
@@ -29,7 +28,8 @@
     position: absolute;
     top: 90px;
     left: 100px;
-    z-index: -1;
+    
+    
   }
 
   .black h1 {
@@ -44,7 +44,7 @@
     bottom: 10px;
     font-size: 2rem;
     left: 50%;
-    z-index: -1;
+  
   }
 
   .arrow_footer{
@@ -71,7 +71,7 @@
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 2;
+    z-index: 3;
     pointer-events: none;
   }
   
@@ -92,7 +92,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 1;
+    z-index: 4;
     width: 35px;
     height: 35px;
     opacity: 0;
@@ -118,6 +118,8 @@
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     visibility: hidden;
+    z-index: 2;
+    
   }
   
   input:checked + .menu nav {
