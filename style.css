@@ -7,6 +7,7 @@
 
 * {
     box-sizing: border-box;
+
   }
   
   body {
@@ -15,6 +16,7 @@
     background-color: lightgrey;
   }
   
+  @media screen and (min-width: 480px) {
   /*-------------sid 1-------------*/
   .page-one {
     background-image: url("images/adam-miller-mobile.jpg");
@@ -23,12 +25,11 @@
     background-size: cover;
     position: relative;
     min-height: 100vh; 
-    width: 100%;
+    min-width: 100vw;
   }
   
   .menu {
     outline: 3px solid gold;
-    width: 100%;
   }
   
   .black {
@@ -38,8 +39,8 @@
     text-align: center;
     position: absolute;
     padding: 0 20px;
-    top: 90px;
-    left: 90px;
+    top: 80px;
+    left: 100px;
     
   }
 
@@ -66,8 +67,12 @@
     bottom: 5px;
   }
 
-  .arrow_footer a:link, a:visited{
+  .arrow_footer a:link{
     text-decoration: none;
+    color: black;
+  }
+
+  .arrow_footer a:visited {
     color: black;
   }
 
@@ -80,6 +85,7 @@
   .arrow_footer:hover span {
     left: 15px;
   }
+
   
   /*------------------Hamburgermeny-------------------
   --------------------------------------------------
@@ -250,21 +256,50 @@
 
   .second-footer{
     display: none;
-    background-color: lightpink;
+    background-color:#0b1237;
+    color: #d200a2;
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     padding: 15px;
-    font-size: 0.8remrem;
+    font-size: 0.8rem;
+  }
+
+  .second-footer p {
+    animation: glow 30s ease-in-out infinite alternate;
+  }
+
+    @-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 5px #d200a2, 0 0 2px #fff, 0 0 3px #d200a2, 0 0 4px #e60073, 0 0 50px #e60073, 0 0 6px #e60073, 0 0 7px #e60073;
+    }
+    to {
+    text-shadow: 0 0 1px #fff, 0 0 3px #ff4da6, 0 0 4px #d200a2, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 70px #ff4da6, 0 0 8px #ff4da6;
+    }
   }
 
   .cookies {
     position: absolute;
-    right: 5px;
+    right: 30px;
     top: 20px;
+    background-color: #081160;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    padding: 10px 15px;
   }
-  
+
+
+.blue a:link {
+  color: #ba025c;
+}
+
+.blue a:visited {
+  color: #ba025c;
+}
   @media screen and (min-width: 800px) {
 
     .page-one {
@@ -285,6 +320,7 @@
 
     .second-footer{
       display: block;
+      font-size: 1.3rem;
     }
     
   }
