@@ -164,15 +164,17 @@
   .full-page {
     background-image: url("images/starry-sky-mobile.jpg");
     background-position: center;
+    Background-position: fixed;
     background-size: cover;
     min-height: 100vh;
-    width: 100%;
     position: relative;
-    margin: 0;
+    
   }
   
   .brown {
     outline: 3px solid brown;
+    padding: 10px;
+
   }
   
   .space-ventures h2 span:first-of-type {
@@ -228,22 +230,36 @@
   
   .pink {
     outline: 3px solid pink;
+    padding: 10px;
   }
   
-  .yellow {
-    outline: 3px solid yellow;
+  .gradient-quote {
+    outline: 3px solid red;
   }
   
   .grey {
     outline: 3px solid grey;
+    padding: 10px;
   }
   
-  .red {
-    outline: 3px solid red;
+  .quote {
+    outline: 3px solid yellow;
+    padding: 10px;
+    display: block;
+  
+
   }
   
   .blue {
     outline: 3px solid blue;
+    padding: 10px;
+  }
+
+  .second-footer {
+    background-color: lightpink;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
   }
   
   @media screen and (min-width: 800px) {
@@ -262,12 +278,5 @@
     }
     .gradient-quote {
       display: block;
-    }
-    .second-footer {
-      background-color: lightpink;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100vw;
     }
   }
