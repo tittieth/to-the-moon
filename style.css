@@ -140,14 +140,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: goldenrod;
+    background-color: rgb(255, 255, 255, 0.8);
     width: 100vw;
     height: 100vh;
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     visibility: hidden;
     z-index: 2;
-    
+  
   }
   
   input:checked + .menu nav {
@@ -159,6 +159,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(191, 191, 191, 0.5);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -293,6 +298,7 @@
 
 .blue a:visited {
   color: #ba025c;
+}
 }
   @media screen and (min-width: 800px) {
 
