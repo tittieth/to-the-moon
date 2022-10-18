@@ -244,7 +244,7 @@ html {
       position: absolute;
       font-size: 3rem;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      color: grey;
+      opacity: 30%;
     }
     blockquote::before {
       content: open-quote;
@@ -438,16 +438,16 @@ Går det att lösa eller funkar denna lösningen ?? */
         
     }
     blockquote::before, blockquote::after {
-      font-size: 2rem;
+      font-size: 6rem;
     }
 
     blockquote::before {
-      top: 25px;
-      left: -10px;
+      top: 35px;
+      left: -30px;
       }
     blockquote::after {
-      bottom: 20px;
-      left: 90px;
+      bottom: -15px;
+      left: 80px;
     }
     
     /* Texten space ventures på sidan 2 */
