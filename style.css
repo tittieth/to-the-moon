@@ -5,6 +5,10 @@
   display: table;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 
@@ -54,7 +58,15 @@
       bottom: 10px;
       font-size: 2rem;
       left: 50%;
-    
+    }
+
+    .light-green a:link{
+      color: white;
+      text-decoration: none;
+    }
+
+    .light-green a:visited {
+      color: white;
     }
 
     .arrow_footer{
