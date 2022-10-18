@@ -372,7 +372,6 @@ html {
 
     .pink {
       position: relative;
-      top: 50px;
       font-size: 1.2rem;
       line-height: 25px;
     }
@@ -383,7 +382,7 @@ html {
     }
 
     blockquote {
-      margin: 70px 20px;
+      margin: 20px 20px;
       position: absolute;
       line-height: 30px;
       font-size: 1.5rem;
