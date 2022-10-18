@@ -343,41 +343,77 @@ html {
   }
   }
 
+/* -----------------------------Style för desktop------------------------------- */
 
   @media screen and (min-width: 1025px) {
 
+
+
+    /*------------------------------------------------
+    -------------------------------------------------
+    -----------------sid 1--------------------------
+    -----------------------------------------------*/
+
+    /* bakgrundsbild överst */
     .page-one {
       background-image: url(images/adam-miller-desktop.jpg);
     }
 
-    .full-page {
-      background-image: url("images/starry-sky-desktop.jpg");
-      display: flex;
-      gap: 100px;
-    }
-    .brown, .grey {
-      width: 50%;
-    }
-    .gradient-quote {
-      display: block;
+    /* Boxen med texten to the moon */
+    .black {
+      font-size: 2rem;
+      top: 80px;
+      left: 190px;
+      width: 300px;
+      padding: 50px 10px;
+      background-color: rgb(255, 255, 255, 0.5);
     }
 
-    .second-footer{
-      display: block;
-      font-size: 1.3rem;
+    .black h1 {
+      margin: 20px 20px 25px 20px;
     }
+
+    .arrow_footer{
+      right: -170px;
+    }
+
+    .line-break {
+      display: none;
+    }
+
+
+  
+
+     /*------------------------------------------------
+    -------------------------------------------------
+    -----------------sid 2--------------------------
+    -----------------------------------------------*/
 
 /* Lyckades inte få bort skuggeffekten om jag la text-decoration: underline.
 Går det att lösa eller funkar denna lösningen ?? */
 
+    /* skapar en rosa linje när man för musen över menyn */
     ul a:hover {
       border-bottom: 4px solid #fc3acf;
       }
-
-      .major-tom {
-        display: block;
+    
+    /* bilden på major tom som endast syns i desktop */
+    .major-tom {
+      display: block;
       }
 
+     /* bakgrundsbild nere stjärnhimmel */
+     .full-page {
+      background-image: url("images/starry-sky-desktop.jpg");
+      display: flex;
+      gap: 100px;
+    }
+
+    .brown, .grey {
+      width: 50%;
+    }
+
+    /* Första sektionen med text på sidan 2 */
     .pink {
       position: relative;
       font-size: 1.2rem;
@@ -389,6 +425,7 @@ Går det att lösa eller funkar denna lösningen ?? */
       font-weight: 600;
     }
 
+    /* Första citatet på sidan 2 */
     blockquote {
       margin: 20px 20px;
       position: absolute;
@@ -408,7 +445,8 @@ Går det att lösa eller funkar denna lösningen ?? */
       bottom: 20px;
       left: 90px;
     }
-  
+    
+    /* Texten space ventures på sidan 2 */
     .space-ventures h2 span:first-of-type {
       font-size: 7rem;
       font-weight: 600;
@@ -421,27 +459,15 @@ Går det att lösa eller funkar denna lösningen ?? */
       left: 70px;
     }
 
-    .black {
-      font-size: 2rem;
-      top: 80px;
-      left: 190px;
-      width: 300px;
-      padding: 50px 10px;
-      background-color: rgb(255, 255, 255, 0.5);
-      
+     /* citatet som endast syns i desktopläge */
+     .gradient-quote {
+      display: block;
     }
 
-    .black h1 {
-      margin: 20px 20px 25px 20px;
-
-    }
-
-    .arrow_footer{
-      right: -170px;
-    }
-
-    .line-break {
-      display: none;
+    /* footern längst ned med cookietexten */
+    .second-footer{
+      display: block;
+      font-size: 1.3rem;
     }
 
     
