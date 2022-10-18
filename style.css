@@ -412,5 +412,19 @@ html {
       font-size: 8rem;
       left: 70px;
     }
+
+    .black {
+      font-size: 2rem;
+      top: 80px;
+      left: 100px;
+      width: 350px;
+      background-color: rgb(255, 255, 255, 0.3);
+      
+    }
+
+    .black h1 {
+      margin-bottom: 25px;
+      margin-top: 20px;
+    }
     
   }
