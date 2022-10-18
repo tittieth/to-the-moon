@@ -177,7 +177,7 @@
 
     ul a:visited {
       color: black;
-    }
+    }  
     
     /*------------sid 2--------------- */
     .full-page {
@@ -221,6 +221,7 @@
       margin: 20px;
       position: relative;
       display: inline;
+      
     }
     blockquote::before, blockquote::after {
       content: '"';
@@ -248,11 +249,14 @@
     }
     
     .pink {
-      outline: 3px solid pink;
+      outline: 1px solid pink;
       text-align: left;
-      padding: 0 10px;
+      padding: 0 6px;
       font-size: 0.7rem;
-    
+    }
+
+    .pink h3 {
+      font-size: 1rem;
     }
     
     .gradient-quote {
@@ -266,8 +270,15 @@
     
     
     .blue {
-      outline: 3px solid blue;
+      outline: 1px solid blue;
+      text-align: left;
+      padding: 0 10px;
+      font-size: 0.7rem;
     
+    }
+
+    .major-tom {
+      display: none;
     }
 
     .second-footer{
@@ -332,7 +343,11 @@
     }
 
     ul a:hover {
-      border-bottom: 5px solid #fc3acf;
-    }
+      text-decoration: underline #fc3acf;
+      }
+
+      .major-tom {
+        display: block;
+      }
     
   }
