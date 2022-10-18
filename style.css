@@ -246,6 +246,8 @@
       -webkit-text-fill-color: transparent;
       font-size: 3rem;
       text-align: center;
+      font-style: italic;
+      
     }
     
     .pink {
