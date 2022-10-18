@@ -240,26 +240,30 @@ html {
       
     }
     blockquote::before, blockquote::after {
-      content: '"';
       display: block;
       position: absolute;
-      font-size: 1rem;
+      font-size: 3rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: grey;
     }
     blockquote::before {
-      top: 34px;
-      left: -15px;
+      content: open-quote;
+      top: 40px;
+      left: -25px;
     }
     blockquote::after {
-      bottom: 35px;
-      right: -55px;
+      content: close-quote;
+      bottom: 25px;
+      right: -70px;
     }
     
     .gradient-quote {
       display: none;
-      background: #969676;
-      background: radial-gradient(circle farthest-corner at center center, #969676 0%, #9E445C 100%);
+      background: #613027;
+      background: repeating-linear-gradient(to right, #613027 0%, #947A47 50%, #613027 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    
       font-size: 3rem;
       text-align: center;
       font-style: italic;
