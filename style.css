@@ -51,6 +51,9 @@ html {
       margin-bottom: 25px;
       margin-top: 20px;
     }
+
+  
+  
     
     .light-green {
       color: white;
@@ -339,6 +342,8 @@ html {
     color: #ba025c;
   }
   }
+
+
   @media screen and (min-width: 1025px) {
 
     .page-one {
@@ -362,8 +367,11 @@ html {
       font-size: 1.3rem;
     }
 
+/* Lyckades inte få bort skuggeffekten om jag la text-decoration: underline.
+Går det att lösa eller funkar denna lösningen ?? */
+
     ul a:hover {
-      text-decoration: underline #fc3acf;
+      border-bottom: 4px solid #fc3acf;
       }
 
       .major-tom {
@@ -416,15 +424,25 @@ html {
     .black {
       font-size: 2rem;
       top: 80px;
-      left: 100px;
-      width: 350px;
-      background-color: rgb(255, 255, 255, 0.3);
+      left: 190px;
+      width: 300px;
+      padding: 50px 10px;
+      background-color: rgb(255, 255, 255, 0.5);
       
     }
 
     .black h1 {
-      margin-bottom: 25px;
-      margin-top: 20px;
+      margin: 20px 20px 25px 20px;
+
     }
+
+    .arrow_footer{
+      right: -170px;
+    }
+
+    .line-break {
+      display: none;
+    }
+
     
   }
