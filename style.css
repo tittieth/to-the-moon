@@ -212,18 +212,19 @@ html {
       font-size: 3rem;
       font-weight: 600;
       position: relative;
-      left: 20px;
+      top: 10px;
+      left: 30px;
       z-index: 1;
     }
     .space-ventures h2 span:nth-of-type(2) {
       position: relative;
-      top: -45px;
-      color: grey;
+      top: -35px;
+      color: rgb(191, 191, 191, 0.8);
       font-size: 4rem;
       font-family: 'Times New Roman', Times, serif;
       font-weight: bold;
       z-index: 0;
-      left: 60px;
+      left: 70px;
     }
     
     blockquote {
@@ -232,6 +233,7 @@ html {
       display: inline;
       left: 50px;
       font-style: italic;
+      line-height: 20px;
       
     }
     blockquote::before, blockquote::after {
@@ -241,8 +243,8 @@ html {
       font-size: 1rem;
     }
     blockquote::before {
-      top: 32px;
-      left: -16px;
+      top: 34px;
+      left: -15px;
     }
     blockquote::after {
       bottom: 35px;
@@ -266,10 +268,12 @@ html {
       text-align: left;
       padding: 0 6px;
       font-size: 0.7rem;
+      line-height: 16px;
     }
 
     .pink h3 {
       font-size: 1rem;
+      font-weight: 600;
     }
     
     .gradient-quote {
@@ -283,10 +287,13 @@ html {
     
     
     .blue {
-      outline: 1px solid blue;
+      border: 1px solid orange;
       text-align: left;
       padding: 0 10px;
+      left: 30px;
       font-size: 0.7rem;
+      line-height: 16px;
+      padding-bottom: 100px;
     
     }
 
@@ -332,7 +339,7 @@ html {
     color: #ba025c;
   }
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1025px) {
 
     .page-one {
       background-image: url(images/adam-miller-desktop.jpg);
@@ -362,5 +369,49 @@ html {
       .major-tom {
         display: block;
       }
+
+    .pink {
+      position: relative;
+      top: 50px;
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+  
+    .pink h3 {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    blockquote {
+      margin: 70px 20px;
+      position: absolute;
+      line-height: 30px;
+      font-size: 1.5rem;
+        
+    }
+    blockquote::before, blockquote::after {
+      font-size: 2rem;
+    }
+
+    blockquote::before {
+      top: 25px;
+      left: -10px;
+      }
+    blockquote::after {
+      bottom: 20px;
+      left: 90px;
+    }
+  
+    .space-ventures h2 span:first-of-type {
+      font-size: 7rem;
+      font-weight: 600;
+      top: 20px;
+      left: 45px;
+    }
+    .space-ventures h2 span:nth-of-type(2) {
+      top: -55px;
+      font-size: 8rem;
+      left: 75px;
+    }
     
   }
