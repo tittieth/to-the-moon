@@ -18,288 +18,296 @@
   
   @media screen and (min-width: 320px) {
   /*-------------sid 1-------------*/
-  .page-one {
-    background-image: url("images/adam-miller-mobile.jpg");
-    background-position: center;
-    Background-position: fixed;
-    background-size: cover;
-    position: relative;
-    min-height: 100vh; 
-    width: 100vw;
-  }
-  
-  .menu {
-    outline: 3px solid gold;
-  }
-  
-  .black {
-    border:  4px solid black;
-    color: black;
-    font-size: 1rem;
-    text-align: center;
-    position: absolute;
-    padding: 0 20px;
-    top: 80px;
-    left: 100px;
+    .page-one {
+      background-image: url("images/adam-miller-mobile.jpg");
+      background-position: center;
+      Background-position: fixed;
+      background-size: cover;
+      position: relative;
+      min-height: 100vh; 
+      width: 100vw;
+    }
     
+    .menu {
+      outline: 3px solid gold;
+    }
+    
+    .black {
+      border:  4px solid black;
+      color: black;
+      font-size: 1rem;
+      text-align: center;
+      position: absolute;
+      padding: 0 20px;
+      top: 80px;
+      left: 100px;
+      
+    }
+
+    .black h1 {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      margin-top: 20px;
+    }
+    
+    .light-green {
+      color: white;
+      position: absolute;
+      bottom: 10px;
+      font-size: 2rem;
+      left: 50%;
+    
+    }
+
+    .arrow_footer{
+      position: absolute;
+      font-size: 0.7rem;
+      left: 5px;
+      bottom: 5px;
+    }
+
+    .arrow_footer a:link{
+      text-decoration: none;
+      color: black;
+    }
+
+    .arrow_footer a:visited {
+      color: black;
+    }
+
+    .arrow_footer span{
+      position: relative;
+      left: 0;
+      transition: left 0.3s ease-in-out;
+    }
+
+    .arrow_footer:hover span {
+      left: 15px;
+    }
+
+    
+    /*------------------Hamburgermeny-------------------
+    --------------------------------------------------
+    --------------------------------------------------*/
+    
+    .menu-button {
+      width: 35px;
+      height: 35px;
+      background: transparent;
+      border: 0;
+      position: fixed;
+      right: 20px;
+      top: 20px;
+      z-index: 3;
+      pointer-events: none;
+    }
+    
+    .menu-button span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: black;
+      border-radius: 6px;
+      margin-bottom: 4px;
+      position: relative;
+      left: 0;
+      transition: left 0.3s ease-in-out;
+      margin-left: 6px;
+    }
+    
+    input {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 4;
+      width: 35px;
+      height: 35px;
+      opacity: 0;
+      cursor: pointer;
+    }
+    
+    .menu-button span:nth-child(2) {
+    margin-left: 0;
+    transition: all 0.4s ease-in-out;
+    }
+    
+    input:hover + .menu .menu-button span:nth-child(2) {
+      left: 6px;
+    }
+    
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgb(255, 255, 255, 0.8);
+      width: 100vw;
+      height: 100vh;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+      visibility: hidden;
+      z-index: 2;
+    
+    }
+    
+    input:checked + .menu nav {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: black;
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(191, 191, 191, 0.5);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+
+    ul a:link {
+      text-decoration: none;
+    }
+
+    ul a:visited {
+      color: black;
+    }
+    
+    /*------------sid 2--------------- */
+    .full-page {
+      background-image: url("images/starry-sky-mobile.jpg");
+      background-position: center;
+      Background-position: fixed;
+      background-size: cover;
+      min-height: 100vh;
+      position: relative;
+      padding-bottom: 10px;
+    
+    }
+    
+    .brown {
+      outline: 3px solid brown;
+      padding: 10px;
+
+    }
+    
+    .space-ventures h2 span:first-of-type {
+      display: block;
+      color: white;
+      font-size: 3rem;
+      font-weight: 600;
+      position: relative;
+      left: 20px;
+      z-index: 1;
+    }
+    .space-ventures h2 span:nth-of-type(2) {
+      position: relative;
+      top: -45px;
+      color: grey;
+      font-size: 4rem;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      z-index: 0;
+      left: 60px;
+    }
+    
+    blockquote {
+      margin: 20px;
+      position: relative;
+      display: inline;
+    }
+    blockquote::before, blockquote::after {
+      content: '"';
+      display: block;
+      position: absolute;
+      font-size: 1rem;
+    }
+    blockquote::before {
+      top: -3px;
+      left: -3px;
+    }
+    blockquote::after {
+      bottom: -3px;
+      right: -3px;
+    }
+    
+    .gradient-quote {
+      display: none;
+      background: #969676;
+      background: radial-gradient(circle farthest-corner at center center, #969676 0%, #9E445C 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    .pink {
+      outline: 3px solid pink;
+      text-align: left;
+      padding: 0 10px;
+      font-size: 0.7rem;
+    
+    }
+    
+    .gradient-quote {
+      outline: 3px solid red;
+    }
+    
+    .grey {
+      outline: 3px solid grey;
+    
+    }
+    
+    
+    .blue {
+      outline: 3px solid blue;
+    
+    }
+
+    .second-footer{
+      display: none;
+      background-color:#0b1237;
+      color: #d200a2;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 15px;
+      font-size: 0.8rem;
+    }
+
+    .second-footer p {
+      text-shadow: 0 0 20px #fc3acf;
+    }
+
+    .cookies {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      background-color: #081160;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      padding: 10px 15px;
+    }
+
+
+  .blue a:link {
+    color: #ba025c;
   }
 
-  .black h1 {
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    margin-top: 20px;
+  .blue a:visited {
+    color: #ba025c;
   }
-  
-  .light-green {
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    font-size: 2rem;
-    left: 50%;
-  
   }
-
-  .arrow_footer{
-    position: absolute;
-    font-size: 0.7rem;
-    left: 5px;
-    bottom: 5px;
-  }
-
-  .arrow_footer a:link{
-    text-decoration: none;
-    color: black;
-  }
-
-  .arrow_footer a:visited {
-    color: black;
-  }
-
-  .arrow_footer span{
-    position: relative;
-    left: 0;
-    transition: left 0.3s ease-in-out;
-  }
-
-  .arrow_footer:hover span {
-    left: 15px;
-  }
-
-  
-  /*------------------Hamburgermeny-------------------
-  --------------------------------------------------
-  --------------------------------------------------*/
-  
-  .menu-button {
-    width: 35px;
-    height: 35px;
-    background: transparent;
-    border: 0;
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    z-index: 3;
-    pointer-events: none;
-  }
-  
-  .menu-button span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    border-radius: 6px;
-    margin-bottom: 4px;
-    position: relative;
-    left: 0;
-    transition: left 0.3s ease-in-out;
-    margin-left: 6px;
-  }
-  
-  input {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 4;
-    width: 35px;
-    height: 35px;
-    opacity: 0;
-    cursor: pointer;
-  }
-  
-  .menu-button span:nth-child(2) {
-  margin-left: 0;
-  transition: all 0.4s ease-in-out;
-  }
-  
-  input:hover + .menu .menu-button span:nth-child(2) {
-    left: 6px;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255, 0.8);
-    width: 100vw;
-    height: 100vh;
-    opacity: 0;
-    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    visibility: hidden;
-    z-index: 2;
-  
-  }
-  
-  input:checked + .menu nav {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    color: black;
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-shadow: 3px 3px rgb(191, 191, 191, 0.5);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  
-  /*------------sid 2--------------- */
-  .full-page {
-    background-image: url("images/starry-sky-mobile.jpg");
-    background-position: center;
-    Background-position: fixed;
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 10px;
-  
-  }
-  
-  .brown {
-    outline: 3px solid brown;
-    padding: 10px;
-
-  }
-  
-  .space-ventures h2 span:first-of-type {
-    display: block;
-    color: white;
-    font-size: 3rem;
-    font-weight: 600;
-    position: relative;
-    left: 20px;
-    z-index: 1;
-  }
-  .space-ventures h2 span:nth-of-type(2) {
-    position: relative;
-    top: -45px;
-    color: grey;
-    font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    z-index: 0;
-    left: 60px;
-  }
-  
-  blockquote {
-    margin: 20px;
-    position: relative;
-    display: inline;
-  }
-  blockquote::before, blockquote::after {
-    content: '"';
-    display: block;
-    position: absolute;
-    font-size: 1rem;
-  }
-  blockquote::before {
-    top: -3px;
-    left: -3px;
-  }
-  blockquote::after {
-    bottom: -3px;
-    right: -3px;
-  }
-  
-  .gradient-quote {
-    display: none;
-    background: #969676;
-    background: radial-gradient(circle farthest-corner at center center, #969676 0%, #9E445C 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .pink {
-    outline: 3px solid pink;
-    text-align: left;
-    padding: 0 10px;
-    font-size: 0.7rem;
-   
-  }
-  
-  .gradient-quote {
-    outline: 3px solid red;
-  }
-  
-  .grey {
-    outline: 3px solid grey;
-  
-  }
-  
-  
-  .blue {
-    outline: 3px solid blue;
-  
-  }
-
-  .second-footer{
-    display: none;
-    background-color:#0b1237;
-    color: #d200a2;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 15px;
-    font-size: 0.8rem;
-  }
-
-  .second-footer p {
-    text-shadow: 0 0 20px #fc3acf;
-  }
-
-  .cookies {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-    background-color: #081160;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    padding: 10px 15px;
-  }
-
-
-.blue a:link {
-  color: #ba025c;
-}
-
-.blue a:visited {
-  color: #ba025c;
-}
-}
   @media screen and (min-width: 800px) {
 
     .page-one {
@@ -321,6 +329,10 @@
     .second-footer{
       display: block;
       font-size: 1.3rem;
+    }
+
+    ul a:hover {
+      border-bottom: 5px solid #fc3acf;
     }
     
   }
