@@ -310,7 +310,6 @@ html {
     }
 
     .second-footer{
-      display: none;
       background-color:#0b1237;
       color: #d200a2;
       position: relative;
@@ -322,17 +321,17 @@ html {
 
     .second-footer p {
       text-shadow: 0 0 20px #fc3acf;
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     .cookies {
       position: absolute;
-      right: 30px;
-      top: 20px;
+      right: 20px;
+      top: 38px;
       background-color: #130dbd;
       color: white;
       text-transform: uppercase;
-      font-size: 1rem;
+      font-size: 0.6rem;
       font-weight: 600;
       border: none;
       padding: 4px 15px;
@@ -487,8 +486,19 @@ Går det att lösa eller funkar denna lösningen ?? */
 
     /* footern längst ned med cookietexten */
     .second-footer{
-      display: block;
       font-size: 1.3rem;
+    }
+
+    .second-footer p {
+      font-size: 1rem;
+    }
+
+    .cookies {
+      right: 30px;
+      top: 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 4px 15px;
     }
 
     
