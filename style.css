@@ -316,7 +316,7 @@ html {
       left: 0;
       bottom: 0;
       width: 100%;
-      padding: 15px;
+      padding: 5px;
       font-size: 0.8rem;
     }
 
@@ -415,6 +415,7 @@ Går det att lösa eller funkar denna lösningen ?? */
 
     .brown, .grey {
       width: 50%;
+      padding: 0 50px;
     }
 
     /* Första sektionen med text på sidan 2 */
@@ -466,6 +467,17 @@ Går det att lösa eller funkar denna lösningen ?? */
      /* citatet som endast syns i desktopläge */
      .gradient-quote {
       display: block;
+    }
+
+    .blue {
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+
+    .major-tom {
+      display: block;
+      float: right;
+      transform: rotate(3deg);
     }
 
     /* footern längst ned med cookietexten */
