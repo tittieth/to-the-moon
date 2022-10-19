@@ -1,23 +1,24 @@
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 * {
     box-sizing: border-box;
-
   }
   
   body {
     font-family: "rubik", sans-serif;
     color: white;
     background-color: lightgrey;
+  }
+
+  main {
+    width: 100%;
+    overflow-x: hidden;
   }
   
   @media screen and (min-width: 320px) {
@@ -40,18 +41,16 @@ html {
       text-align: center;
       position: absolute;
       padding: 0 20px;
-      top: 80px;
-      left: 100px;
+      top: 90px;
+      left: 50px;
       
     }
-
     .black h1 {
       font-weight: 600;
       text-transform: uppercase;
       margin-bottom: 25px;
       margin-top: 20px;
     }
-
   
   
     
@@ -62,42 +61,34 @@ html {
       font-size: 2rem;
       left: 50%;
     }
-
     .light-green a:link{
       color: white;
       text-decoration: none;
     }
-
     .light-green a:visited {
       color: white;
     }
-
     .arrow_footer{
       position: absolute;
       font-size: 0.7rem;
       left: 5px;
       bottom: 5px;
     }
-
     .arrow_footer a:link{
       text-decoration: none;
       color: black;
     }
-
     .arrow_footer a:visited {
       color: black;
     }
-
     .arrow_footer span{
       position: relative;
       left: 0;
       transition: left 0.3s ease-in-out;
     }
-
     .arrow_footer:hover span {
       left: 15px;
     }
-
     
     /*------------------Hamburgermeny-------------------
     --------------------------------------------------
@@ -182,11 +173,9 @@ html {
       justify-content: space-evenly;
       text-align: center;
     }
-
     ul a:link {
       text-decoration: none;
     }
-
     ul a:visited {
       color: black;
     }  
@@ -206,7 +195,6 @@ html {
     .brown {
       outline: 3px solid brown;
       padding: 10px;
-
     }
     
     .space-ventures h2 span:first-of-type {
@@ -277,11 +265,9 @@ html {
       font-size: 0.7rem;
       line-height: 16px;
     }
-
     .pink h3 {
       font-size: 1rem;
       font-weight: 600;
-
     }
     
     .gradient-quote {
@@ -293,23 +279,23 @@ html {
     
     }
     
-    
     .blue {
-      border: 1px solid orange;
+      outline: 1px solid orange;
       text-align: left;
       padding: 0 50px;
       left: 30px;
       font-size: 0.7rem;
       line-height: 16px;
       padding-bottom: 100px;
+      
     
     }
-
     .major-tom {
       display: none;
     }
 
     .second-footer{
+      display: none;
       background-color:#0b1237;
       color: #d200a2;
       position: relative;
@@ -321,48 +307,42 @@ html {
 
     .second-footer p {
       text-shadow: 0 0 20px #fc3acf;
+      font-size: 1rem;
       font-size: 0.8rem;
     }
 
     .cookies {
       position: absolute;
+      right: 30px;
+      top: 20px;
       right: 20px;
       top: 38px;
       background-color: #130dbd;
       color: white;
       text-transform: uppercase;
+      font-size: 1rem;
       font-size: 0.6rem;
       font-weight: 600;
       border: none;
       padding: 4px 15px;
     }
-
-
   .blue a:link {
     color: #ba025c;
   }
-
   .blue a:visited {
     color: #ba025c;
   }
   }
-
 /* -----------------------------Style för desktop------------------------------- */
-
   @media screen and (min-width: 1025px) {
-
-
-
     /*------------------------------------------------
     -------------------------------------------------
     -----------------sid 1--------------------------
     -----------------------------------------------*/
-
     /* bakgrundsbild överst */
     .page-one {
       background-image: url(images/adam-miller-desktop.jpg);
     }
-
     /* Boxen med texten to the moon */
     .black {
       font-size: 2rem;
@@ -372,30 +352,22 @@ html {
       padding: 50px 10px;
       background-color: rgb(255, 255, 255, 0.5);
     }
-
     .black h1 {
       margin: 20px 20px 25px 20px;
     }
-
     .arrow_footer{
       right: -170px;
     }
-
     .line-break {
       display: none;
     }
-
-
   
-
      /*------------------------------------------------
     -------------------------------------------------
     -----------------sid 2--------------------------
     -----------------------------------------------*/
-
 /* Lyckades inte få bort skuggeffekten om jag la text-decoration: underline.
 Går det att lösa eller funkar denna lösningen ?? */
-
     /* skapar en rosa linje när man för musen över menyn */
     ul a:hover {
       border-bottom: 4px solid #fc3acf;
@@ -405,18 +377,15 @@ Går det att lösa eller funkar denna lösningen ?? */
     .major-tom {
       display: block;
       }
-
      /* bakgrundsbild nere stjärnhimmel */
      .full-page {
       background-image: url("images/starry-sky-desktop.jpg");
       display: flex;
       gap: 100px;
     }
-
     .brown, .grey {
       width: 50%;
     }
-
     /* Första sektionen med text på sidan 2 */
     .pink {
       width: 100%;
@@ -430,7 +399,6 @@ Går det att lösa eller funkar denna lösningen ?? */
       font-size: 1.6rem;
       font-weight: 600;
     }
-
     /* Första citatet på sidan 2 */
     blockquote {
       margin: 20px 20px;
@@ -442,7 +410,6 @@ Går det att lösa eller funkar denna lösningen ?? */
     blockquote::before, blockquote::after {
       font-size: 6rem;
     }
-
     blockquote::before {
       top: 35px;
       left: -30px;
@@ -464,19 +431,15 @@ Går det att lösa eller funkar denna lösningen ?? */
       font-size: 8rem;
       left: 70px;
     }
-
      /* citatet som endast syns i desktopläge */
      .gradient-quote {
       display: block;
     }
-
     .blue {
       font-size: 1rem;
       line-height: 22px;
       padding: 0 50px;
-
     }
-
     .major-tom {
       display: relative;
       float: right;
@@ -486,6 +449,7 @@ Går det att lösa eller funkar denna lösningen ?? */
 
     /* footern längst ned med cookietexten */
     .second-footer{
+      display: block;
       font-size: 1.3rem;
     }
 
@@ -501,5 +465,5 @@ Går det att lösa eller funkar denna lösningen ?? */
       padding: 4px 15px;
     }
 
-    
+
   }
