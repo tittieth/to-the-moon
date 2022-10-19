@@ -271,9 +271,9 @@ html {
     }
     
     .pink {
-      outline: 1px solid pink;
+      border: 1px solid pink;
       text-align: left;
-      padding: 0 6px;
+      padding-left: 50px;
       font-size: 0.7rem;
       line-height: 16px;
     }
@@ -281,6 +281,7 @@ html {
     .pink h3 {
       font-size: 1rem;
       font-weight: 600;
+
     }
     
     .gradient-quote {
@@ -296,7 +297,7 @@ html {
     .blue {
       border: 1px solid orange;
       text-align: left;
-      padding: 0 10px;
+      padding: 0 50px;
       left: 30px;
       font-size: 0.7rem;
       line-height: 16px;
@@ -316,25 +317,25 @@ html {
       left: 0;
       bottom: 0;
       width: 100%;
-      padding: 5px;
-      font-size: 0.8rem;
+      padding: 5px 20px;
     }
 
     .second-footer p {
       text-shadow: 0 0 20px #fc3acf;
+      font-size: 1rem;
     }
 
     .cookies {
       position: absolute;
       right: 30px;
       top: 20px;
-      background-color: #081160;
+      background-color: #130dbd;
       color: white;
       text-transform: uppercase;
       font-size: 1rem;
       font-weight: 600;
       border: none;
-      padding: 10px 15px;
+      padding: 4px 15px;
     }
 
 
@@ -415,14 +416,15 @@ Går det att lösa eller funkar denna lösningen ?? */
 
     .brown, .grey {
       width: 50%;
-      padding: 0 50px;
     }
 
     /* Första sektionen med text på sidan 2 */
     .pink {
+      width: 100%;
       position: relative;
-      font-size: 1.2rem;
-      line-height: 25px;
+      font-size: 1rem;
+      line-height: 22px;
+      padding-left: 20px;
     }
   
     .pink h3 {
@@ -470,14 +472,17 @@ Går det att lösa eller funkar denna lösningen ?? */
     }
 
     .blue {
-      font-size: 1.2rem;
-      line-height: 25px;
+      font-size: 1rem;
+      line-height: 22px;
+      padding: 0 50px;
+
     }
 
     .major-tom {
-      display: block;
+      display: relative;
       float: right;
       transform: rotate(3deg);
+      
     }
 
     /* footern längst ned med cookietexten */
