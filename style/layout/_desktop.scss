@@ -73,23 +73,23 @@ ul a:hover {
 }
 
     /* Första citatet på sidan 2 */
-blockquote {
+.quote {
     margin: 20px 20px;
     position: absolute;
     line-height: 30px;
     font-size: 1.5rem;
 }
 
-blockquote::before, blockquote::after {
+.quote::before, .quote::after {
     font-size: 6rem;
 }
 
-blockquote::before {
+.quote::before {
     top: 35px;
     left: -30px;
 }
 
-blockquote::after {
+.quote::after {
     bottom: -15px;
     left: 80px;
 }
