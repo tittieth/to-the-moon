@@ -1,0 +1,33 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: "rubik", sans-serif;
+  color: white;
+  background-color: lightgrey;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+  
+@media screen and (min-width: 375px) {
+  @import "layout/base"
+}
+
+@media screen and (min-width: 1024px) {
+  @import "/style/layout/desktop";
+}

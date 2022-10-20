@@ -1,0 +1,147 @@
+/* -----------------------------Style för desktop------------------------------- */
+
+    /*------------------------------------------------
+    -----------------sid 1--------------------------
+    -----------------------------------------------*/
+    /* bakgrundsbild överst beskuren för desktop*/
+.page-one {
+    background-image: url("/images/adam-miller-desktop.jpg");
+}
+
+    /* Boxen med texten to the moon */
+.black {
+    font-size: 2rem;
+    top: 80px;
+    left: 190px;
+    width: 300px;
+    padding: 50px 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.black h1 {
+    margin: 20px 20px 25px 20px;
+}
+
+.arrow_footer{
+    left: 150px;
+}
+
+.line-break {
+    display: none;
+}
+  
+     /*------------------------------------------------
+    -------------------------------------------------
+    -----------------sid 2--------------------------
+    -----------------------------------------------*/
+/* Lyckades inte få bort skuggeffekten om jag la text-decoration: underline.
+Går det att lösa eller funkar denna lösningen ?? */
+
+    /* skapar en rosa linje när man för musen över menyn */
+ul a:hover {
+    border-bottom: 4px solid #fc3acf;
+}
+    
+    /* bilden på major tom som endast syns i desktop */
+.major-tom {
+    display: block;
+}
+
+     /* bakgrundsbild nere stjärnhimmel */
+.full-page {
+    background-image: url("/images/starry-sky-desktop.jpg");
+    display: flex;
+    gap: 100px;
+}
+
+.brown, .grey {
+    width: 50%;
+}
+
+    /* Första sektionen med text på sidan 2 */
+.pink {
+    width: 100%;
+    position: relative;
+    font-size: 1rem;
+    line-height: 22px;
+    padding-left: 20px;
+}
+  
+.pink h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+    /* Första citatet på sidan 2 */
+blockquote {
+    margin: 20px 20px;
+    position: absolute;
+    line-height: 30px;
+    font-size: 1.5rem;
+}
+
+blockquote::before, blockquote::after {
+    font-size: 6rem;
+}
+
+blockquote::before {
+    top: 35px;
+    left: -30px;
+}
+
+blockquote::after {
+    bottom: -15px;
+    left: 80px;
+}
+    
+    /* Texten space ventures på sidan 2 */
+.space-ventures h2 span:first-of-type {
+    font-size: 7rem;
+    font-weight: 600;
+    top: 20px;
+    left: 45px;
+}
+
+.space-ventures h2 span:nth-of-type(2) {
+    top: -50px;
+    font-size: 8rem;
+    left: 70px;
+}
+
+     /* citatet som endast syns i desktopläge */
+.gradient-quote {
+    display: block;
+}
+
+.blue {
+    font-size: 1rem;
+    line-height: 22px;
+    padding: 0 50px;
+}
+
+.major-tom {
+    display: relative;
+    float: right;
+    transform: rotate(3deg);
+}
+
+    /* footern längst ned med cookietexten */
+
+.second-footer{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.second-footer p {
+    position: absolute;
+    font-size: 1rem;
+    width: 800px;
+    top: 15px;
+}
+
+.cookies {
+    right: 30px;
+    top: 20px;
+    font-size: 1rem;
+    padding: 4px 15px;
+}
