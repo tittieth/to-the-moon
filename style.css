@@ -21,7 +21,7 @@ html {
     overflow-x: hidden;
   }
   
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 375px) {
   /*-------------sid 1-------------*/
     .page-one {
       background-image: url("images/adam-miller-mobile.jpg");
@@ -193,7 +193,6 @@ html {
     }
     
     .brown {
-      outline: 3px solid brown;
       padding: 10px;
     }
     
@@ -241,8 +240,8 @@ html {
     }
     blockquote::after {
       content: close-quote;
-      bottom: 25px;
-      right: -70px;
+      bottom: 15px;
+      right: -65px;
     }
     
     .gradient-quote {
@@ -259,9 +258,8 @@ html {
     }
     
     .pink {
-      border: 1px solid pink;
       text-align: left;
-      padding-left: 50px;
+      padding: 0 15px;
       font-size: 0.7rem;
       line-height: 16px;
     }
@@ -282,8 +280,8 @@ html {
     .blue {
       outline: 1px solid orange;
       text-align: left;
-      padding: 0 50px;
-      left: 30px;
+      padding: 0 15px;
+      
       font-size: 0.7rem;
       line-height: 16px;
       padding-bottom: 100px;
