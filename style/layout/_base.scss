@@ -234,7 +234,7 @@ ul a:visited {
     left: 40px;
     display: none;
     background: #8A0751;
-    background: repeating-linear-gradient(to right, #8A0751 0%, #ffffff 50%, #8A0751 100%);
+    background: repeating-radial-gradient(circle farthest-side at top left, #8A0751 0%, #FFFFFF 40%, #8A0751 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
