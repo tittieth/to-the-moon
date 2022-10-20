@@ -179,9 +179,6 @@ ul a:visited {
     padding-bottom: 10px;
 }
       
-.brown {
-    padding: 10px;
-}
       
 .space-ventures h2 span:first-of-type {
     display: block;
@@ -190,7 +187,7 @@ ul a:visited {
     font-weight: 600;
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 10px;
     z-index: 1;
 }
   
@@ -202,14 +199,14 @@ ul a:visited {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     z-index: 0;
-    left: 70px;
+    left: 50px;
 }
       
 .quote {
     margin: 10px;
     position: relative;
     display: inline;
-    left: 50px;
+    left: 20px;
     font-style: italic;
     line-height: 20px;
 }
@@ -235,19 +232,28 @@ ul a:visited {
 }
       
 .gradient-quote {
+    position: relative;
+    left: 40px;
     display: none;
     background: #8A0751;
     background: repeating-linear-gradient(to right, #8A0751 0%, #ffffff 50%, #8A0751 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    text-align: center;
     font-style: italic;
     opacity: 45%;
 }
+
+.grey, .brown {
+    margin: 0 20px;
+}
+
+.brown {
+    padding-top: 10px;
+}
+
       
 .pink {
-    text-align: left;
     padding: 0 15px;
     font-size: 1rem;
 }
@@ -258,8 +264,7 @@ ul a:visited {
 }
       
 .blue {
-    text-align: left;
-    padding: 0 25px;
+    padding: 0 15px;
     font-size: 1rem;
     padding-bottom: 90px; 
 }
