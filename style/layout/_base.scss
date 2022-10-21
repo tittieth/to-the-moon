@@ -3,6 +3,7 @@
 .page-one {
     background-image: url("/images/adam-miller-mobile.jpg");
     Background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
     min-height: 100vh; 
@@ -298,7 +299,7 @@ ul a:visited {
     position: absolute;
     top: 30px;
     right: 10px;
-    background-color: #0c078f;
+    background-color: #0d088e;
     color: white;
     text-transform: uppercase;
     font-size: 1rem;
@@ -306,5 +307,7 @@ ul a:visited {
     border: none;
     padding: 3px 10px;
     margin-top: 2px;
+    border: 1px solid #fc3acf;
+    border-radius: 3px;
 }
     

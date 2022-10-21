@@ -22,8 +22,28 @@
     margin: 20px 20px 25px 20px;
 }
 
+.menu-button span {
+    width: 45px;
+    height: 6px;
+    margin-left: -10px;
+}
+
+.menu-button span:nth-child(2) {
+    margin-left: -18px;
+}
+      
+input:hover + .menu .menu-button span:nth-child(2) {
+    left: 8px;
+}
+
+.light-green {
+    font-size: 4rem;
+}
+  
+
 .arrow_footer{
-    left: 150px;
+    font-size: 1.1rem;
+    right: -100px;
 }
 
 .line-break {
