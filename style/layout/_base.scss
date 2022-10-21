@@ -21,8 +21,8 @@
     text-align: center;
     position: absolute;
     padding: 10px;
-    top: 40px;
-    left: 20px;
+    top: 70px;
+    left: 25px;
 }
   
 .black h1 {
@@ -189,8 +189,9 @@ ul a:visited {
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    width: 100vw;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
 }
       
       
@@ -313,10 +314,11 @@ ul a:visited {
 .second-footer{
     background-color:#0b1237;
     color: #d200a2;
-    position: relative;
+    position: fixed;
     height: 80px;
     width: 100%;
     padding: 1px 20px;
+    bottom: 0;
 }
   
 .second-footer p {
