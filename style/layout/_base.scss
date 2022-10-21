@@ -90,7 +90,6 @@
     right: 20px;
     top: 20px;
     z-index: 3;
-    pointer-events: none;
 }
       
 .menu-button span {
@@ -230,7 +229,7 @@ ul a:visited {
 .quote::before, blockquote::after {
     display: block;
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 30%;
 }
@@ -287,10 +286,24 @@ ul a:visited {
   
 .blue a:link {
     color: #ba025c;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
   
 .blue a:visited {
     color: #ba025c;
+}
+
+.blue span {
+    font-size: 1.8rem;
+    position: relative;
+    left: 10px;
+    transition: rigth 0.3s ease-in-out;
+}
+
+.blue:hover span {
+    left: 20px;
+
 }
       
 .major-tom {
