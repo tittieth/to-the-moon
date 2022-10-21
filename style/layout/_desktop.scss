@@ -38,7 +38,13 @@ input:hover + .menu .menu-button span:nth-child(2) {
 
 .arrow_footer{
     font-size: 1.1rem;
-    left: 340px;
+    left: 320px;
+}
+
+.arrow_footer span {
+    left: 8px;
+    top: 3px;
+    font-size: 1.5rem;
 }
 
 .line-break {

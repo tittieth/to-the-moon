@@ -287,7 +287,6 @@ ul a:visited {
 .blue a:link {
     color: #ba025c;
     font-size: 1.2rem;
-    text-decoration: none;
 }
   
 .blue a:visited {
@@ -295,15 +294,16 @@ ul a:visited {
 }
 
 .blue span {
+    color: #ba025c;
     font-size: 1.8rem;
     position: relative;
+    top: 3px;
     left: 10px;
     transition: rigth 0.3s ease-in-out;
 }
 
 .blue:hover span {
     left: 20px;
-
 }
       
 .major-tom {
