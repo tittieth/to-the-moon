@@ -2,8 +2,8 @@
 /*-------------sid 1-------------*/
 .page-one {
     background-image: url("/images/adam-miller-mobile.jpg");
-    Background-position: center;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     position: relative;
     min-height: 100vh; 
@@ -315,7 +315,7 @@ ul a:visited {
     color: #d200a2;
     position: relative;
     height: 80px;
-    width: 100%;
+    width: 100vw;
     padding: 1px 20px;
 }
   
@@ -328,7 +328,7 @@ ul a:visited {
 .cookies {
     position: absolute;
     top: 30px;
-    right: 10px;
+    right: 20px;
     background-color: #0d088e;
     color: white;
     text-transform: uppercase;
