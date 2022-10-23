@@ -11,8 +11,6 @@ html {
 * {
     box-sizing: border-box;
   }
-
-
   
 body {
   font-family: "rubik", sans-serif;
@@ -20,15 +18,18 @@ body {
   overflow-x: hidden;
 }
 
+/*omsluter allt innehåll */
 main {
   width: 100%;
   overflow-x: hidden;
 }
   
+/* styling för mobil */
 @media screen and (min-width: 325px) {
   @import "layout/base";
 }
 
+/*styling för desktop*/
 @media screen and (min-width: 1024px) {
   @import "layout/desktop";
 }

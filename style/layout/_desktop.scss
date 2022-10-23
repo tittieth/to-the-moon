@@ -17,6 +17,8 @@
     background-color: rgb(255, 255, 255, 0.5);
 }
 
+    /*Hamburgermenyn */
+
 .menu-button span {
     width: 45px;
     height: 6px;
@@ -31,11 +33,7 @@ input:hover + .menu .menu-button span:nth-child(2) {
     left: 8px;
 }
 
-.arrow-down {
-    font-size: 4rem;
-}
-  
-
+    /* styling för pilen som är inuti to-the-moon-box */
 .arrow_footer{
     font-size: 1.1rem;
     left: 320px;
@@ -47,6 +45,11 @@ input:hover + .menu .menu-button span:nth-child(2) {
     font-size: 1.5rem;
 }
 
+.arrow-down {
+    font-size: 4rem;
+}
+  
+/*radbrytning som endast ses i mobil */ 
 .line-break {
     display: none;
 }
@@ -76,7 +79,9 @@ ul a:hover {
     padding-bottom: 250px;
 }
 
-.left-box, .grey {
+    /* För att dela upp innehållet på sid 2 */
+
+.left-box, .right-box {
     width: 50%;
 }
 
@@ -130,16 +135,19 @@ ul a:hover {
     left: 70px;
 }
 
-     /* citatet som endast syns i desktopläge */
+     /* det färgtonade citatet som endast syns i desktopläge */
 .gradient-quote {
     display: block;
 }
+    /* Andra delen med text på sid 2 */
 
 .text-two {
     font-size: 1rem;
     line-height: 22px;
     padding: 0 50px;
 }
+
+/* bilden på major tom som endast syns på desktop */
 
 .major-tom {
     position: relative;
@@ -162,6 +170,7 @@ ul a:hover {
     top: 15px;
 }
 
+    /* cookies-knappen */
 .cookies {
     right: 30px;
     top: 20px;

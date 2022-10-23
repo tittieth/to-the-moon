@@ -9,11 +9,13 @@
     min-height: 100vh; 
     width: 100vw;
 }
-  
+
+/*radbrytning som endast ses i desktop */ 
 .line-break-two {
     display: none;
 }
-        
+
+/*Boxen med texten to the moon */
 .to-the-moon-box {
     border:  4px solid black;
     color: black;
@@ -33,23 +35,8 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
-      
-.arrow-down {
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    font-size: 2rem;
-    left: 50%;
-}
-  
-.arrow-down a:link{
-    color: white;
-    text-decoration: none;
-}
-  
-.arrow-down a:visited {
-    color: white;
-}
+
+/* styling för pilen som är inuti to-the-moon-box */
   
 .arrow_footer{
     position: absolute;
@@ -75,6 +62,23 @@
   
 .arrow_footer:hover span {
     left: 15px;
+}
+ /* styling för pilen som pekar neråt på sid 1 och som tar en till sid 2 */
+.arrow-down {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    font-size: 2rem;
+    left: 50%;
+}
+  
+.arrow-down a:link{
+    color: white;
+    text-decoration: none;
+}
+  
+.arrow-down a:visited {
+    color: white;
 }
       
       /*------------------Hamburgermeny-------------------
@@ -194,7 +198,7 @@ ul a:visited {
     padding-bottom: 80px;
 }
       
-      
+    /* rubriken på sid 2 */  
 .space-ventures h2 span:first-of-type {
     display: block;
     color: white;
@@ -216,6 +220,8 @@ ul a:visited {
     z-index: 0;
     left: 50px;
 }
+
+/* Första citatet */
       
 .quote {
     margin: 10px;
@@ -226,8 +232,10 @@ ul a:visited {
     font-size: 1.2rem;
     line-height: 20px;
 }
+
+/* citattecknena vid första citatet */
   
-.quote::before, blockquote::after {
+.quote::before, .quote::after {
     display: block;
     position: absolute;
     font-size: 2.5em;
@@ -246,7 +254,8 @@ ul a:visited {
     bottom: 20px;
     right: -78px;
 }
-      
+
+/* det färgtonade citatet*/
 .gradient-quote {
     position: relative;
     left: 40px;
@@ -267,6 +276,7 @@ ul a:visited {
     -moz-text-fill-color: transparent;    
 }
 
+/* För att dela upp innehållet på sid 2 */
 .right-box, .left-box {
     margin: 0 10px;
 }
@@ -275,7 +285,7 @@ ul a:visited {
     padding-top: 10px;
 }
 
-      
+/* Första delen med text på sid 2 */  
 .text-one {
     padding: 0 15px;
     font-size: 1rem;
@@ -285,6 +295,8 @@ ul a:visited {
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+/* Andra delen med text på sid 2 */
       
 .text-two {
     padding: 0 15px;
@@ -313,11 +325,13 @@ ul a:visited {
 .text-two:hover span {
     left: 20px;
 }
-      
+
+/* bilden på major tom som endast syns på desktop */
 .major-tom {
     display: none;
 }
-  
+
+/* Footern med cookies-knappen */
 .second-footer{
     background-color:#0b1237;
     color: #d200a2;
@@ -333,7 +347,8 @@ ul a:visited {
     font-size: 1rem;
     width: 250px;
 }
-  
+
+/* cookies-knappen */
 .cookies {
     position: absolute;
     top: 30px;
