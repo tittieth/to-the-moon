@@ -14,7 +14,7 @@
     display: none;
 }
         
-.black {
+.to-the-moon-box {
     border:  4px solid black;
     color: black;
     font-size: 1.3rem;
@@ -25,7 +25,7 @@
     left: 25px;
 }
   
-.black h1 {
+.to-the-moon-box h1 {
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 10px;
@@ -34,7 +34,7 @@
     margin-top: 10px;
 }
       
-.light-green {
+.arrow-down {
     color: white;
     position: absolute;
     bottom: 10px;
@@ -42,12 +42,12 @@
     left: 50%;
 }
   
-.light-green a:link{
+.arrow-down a:link{
     color: white;
     text-decoration: none;
 }
   
-.light-green a:visited {
+.arrow-down a:visited {
     color: white;
 }
   
@@ -257,7 +257,7 @@ ul a:visited {
     /* För edge */
     background: linear-gradient(170deg, rgba(138,7,81,0.4) 7%, rgba(255,255,255,0.4) 50%, rgba(138,7,81,0.4) 85%);
     /* För safari och chrome */
-    background: -webkit-linear-gradient(150deg, rgba(138,7,81,0.4) 7%, rgba(255,255,255,0.4) 50%, rgba(138,7,81,0.4) 85%);
+    background: -webkit-linear-gradient(160deg, rgba(138,7,81,0.4) 7%, rgba(255,255,255,0.4) 50%, rgba(138,7,81,0.4) 85%);
     /* För firefox */
     background: -moz-linear-gradient(100deg, rgba(138,7,81,0.4) 0%, rgba(255,255,255,0.4) 50%, rgba(138,7,81,0.4) 85%);
     background-clip: text;
@@ -267,41 +267,41 @@ ul a:visited {
     -moz-text-fill-color: transparent;    
 }
 
-.grey, .brown {
+.right-box, .left-box {
     margin: 0 10px;
 }
 
-.brown {
+.left-box {
     padding-top: 10px;
 }
 
       
-.pink {
+.text-one {
     padding: 0 15px;
     font-size: 1rem;
 }
   
-.pink h3 {
+.text-one h3 {
     font-size: 1.1rem;
     font-weight: 600;
 }
       
-.blue {
+.text-two {
     padding: 0 15px;
     font-size: 1rem;
     padding-bottom: 90px; 
 }
   
-.blue a:link {
+.text-two a:link {
     color: #ba025c;
     font-size: 1.2rem;
 }
   
-.blue a:visited {
+.text-two a:visited {
     color: #ba025c;
 }
 
-.blue span {
+.text-two span {
     color: #ba025c;
     font-size: 1.8rem;
     position: relative;
@@ -310,7 +310,7 @@ ul a:visited {
     transition: rigth 0.3s ease-in-out;
 }
 
-.blue:hover span {
+.text-two:hover span {
     left: 20px;
 }
       

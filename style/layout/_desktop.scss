@@ -9,7 +9,7 @@
 }
 
     /* Boxen med texten to the moon */
-.black {
+.to-the-moon-box {
     font-size: 3rem;
     top: 60px;
     left: 60px;
@@ -31,7 +31,7 @@ input:hover + .menu .menu-button span:nth-child(2) {
     left: 8px;
 }
 
-.light-green {
+.arrow-down {
     font-size: 4rem;
 }
   
@@ -76,20 +76,20 @@ ul a:hover {
     padding-bottom: 250px;
 }
 
-.brown, .grey {
+.left-box, .grey {
     width: 50%;
 }
 
     /* Första sektionen med text på sidan 2 */
-.pink {
+.text-one {
     width: 100%;
     position: relative;
     font-size: 1rem;
     line-height: 22px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
   
-.pink h3 {
+.text-one h3 {
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -135,7 +135,7 @@ ul a:hover {
     display: block;
 }
 
-.blue {
+.text-two {
     font-size: 1rem;
     line-height: 22px;
     padding: 0 50px;
